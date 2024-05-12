@@ -1,9 +1,9 @@
 package pkg
 
 type Snapshot struct {
-	state string
+	State string
 }
 
 func (s *Snapshot) GetState() string {
-	return s.state
+	return s.State
 }
